@@ -1,0 +1,63 @@
+*{
+    box-sizing: border-box;
+}
+
+header {
+    padding: 20px;
+    background-color: #ffffff;
+    border-bottom: 2px solid #cccccc;
+    text-align: right;
+}
+
+hr{
+    border-top: 2px solid #cccccc;
+    width: 825px;
+}
+
+body {
+    text-align: left;
+    width: 960px;
+    padding: 20px;
+    background-color: #dddddd;
+}
+
+h2{
+    color: #4aaaa5;
+    font-size: 35px;
+    padding-top:15px;
+    margin-left: 50px;
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+img{
+    float: left;
+    padding: 10px;
+}
+
+footer{
+    background-color: gray;
+    border-top: 8px solid #4aaaa5;
+    padding: 20px;
+    text-align: center;
+    font-size: 8px;
+    color: lightgray;
+}
+
+.wrapper {
+    background-color: #ffffff;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+
+#myName {
+    font-size: 20px;
+    color: white;
+    background-color: #4aaaa5;
+    width: 300px;
+    text-align: center;
+    position: relative;
+    top: 60px;
+
+}
