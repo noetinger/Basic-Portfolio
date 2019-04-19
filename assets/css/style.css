@@ -4,24 +4,17 @@
 
 header {
     font-family: Arial, Helvetica, sans-serif;
-    padding: 20px;
     background-color: #ffffff;
     border-bottom: 2px solid #cccccc;
     text-align: right;
+    margin-bottom: 35px;
+    margin-left: auto;
+    margin-right:auto;
 }
 
 hr{
     border-top: 2px solid #cccccc;
     width: 825px;
-}
-
-body {
-    font-family: Arial, Helvetica, sans-serif;
-    text-align: left;
-    width: 960px;
-    padding: 20px;
-    background-color: #dddddd;
-    margin: auto;
 }
 
 h1 {
@@ -33,7 +26,7 @@ h1 {
     height: 50px;
     text-align: center;
     position: relative;
-    Top: 50px;
+    Top: 25px;
 }
 
 h2{
@@ -60,18 +53,41 @@ footer{
     text-align: center;
     font-size: 8px;
     color: lightgray;
+    margin-top: 35px;
+    margin-left: auto;
+    margin-right:auto;
 }
 
-.wrapper {
+main {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #ffffff;
     padding-left: 15px;
     padding-right: 15px;
+    width: 960px;
+    padding-bottom: 15px;
+    margin: auto;
 
 }
 
 #me{
     float: left;
     padding: 10px;
+}
+
+
+input[type=text], select, textarea {
+    width: 100%; 
+    padding: 12px; 
+    border: 1px solid #4aaaa5 ;
+    margin-top: 2px;
+    margin-bottom: 18px;
+
+}
+
+input[type=submit] {
+        background-color: #4aaaa5;
+        color: white;
+        padding: 12px 20px;
 }
 
 .Hangman{
